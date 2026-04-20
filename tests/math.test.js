@@ -1,4 +1,4 @@
-const { sum, subtract, multiply, divide } = require('../../pp/src/utils/math');
+const { sum, subtract, multiply, divide } = require('../src/utils/math');
 
 describe('math utils', () => {
   test('sum', () => {

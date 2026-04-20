@@ -2,7 +2,7 @@ const {
   calculateDiscount,
   applyDiscount,
   getCouponDiscountPercentage,
-} = require('../../../pp/src/services/discountService');
+} = require('../src/services/discountService');
 
 describe('discountService', () => {
   describe('calculateDiscount', () => {

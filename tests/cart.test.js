@@ -2,13 +2,13 @@ const {
   calculateCartTotal,
   calculateFinalPrice,
   canCheckout,
-} = require('../../pp/src/services/cartService');
+} = require('../src/services/cartService');
 
 jest.mock('../src/services/discountService', () => ({
   applyDiscount: jest.fn(),
 }));
 
-const { applyDiscount } = require('../../pp/src/services/discountService');
+const { applyDiscount } = require('../src/services/discountService');
 
 describe('cartService', () => {
   describe('calculateCartTotal', () => {

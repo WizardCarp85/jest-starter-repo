@@ -1,4 +1,4 @@
-const { registerUser, loginUser } = require('../../../pp/src/services/authService');
+const { registerUser, loginUser } = require('../src/services/authService');
 
 describe('authService', () => {
   describe('registerUser', () => {

@@ -2,7 +2,7 @@ const {
   isValidEmail,
   isStrongPassword,
   isNonEmptyString,
-} = require('../../../pp/src/utils/validators');
+} = require('../src/utils/validators');
 
 describe('validators', () => {
   describe('isValidEmail', () => {
